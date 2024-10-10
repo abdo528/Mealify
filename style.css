@@ -176,12 +176,13 @@ a {
     width: 30px;
     height: 30px;
     background-color: white;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .header-image img {
     position: relative;
     transition: transform .1s;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 /* section chefs */
@@ -607,6 +608,11 @@ button:hover {
     .footer .part-large {
         width: 100%;
     }
+
+    .navigation {
+        bottom: 150px;
+        left: 200px;
+    }
 }
 
 /* md */
@@ -643,6 +649,11 @@ button:hover {
 
     .footer .part-large {
         width: 50%;
+    }
+
+    .navigation {
+        bottom: 100px;
+        left: 340px;
     }
 }
 
@@ -689,6 +700,12 @@ button:hover {
 
     .footer .part-large {
         width: 50%;
+    }
+
+    .navigation{
+        position: absolute;
+        left: 500px;
+        bottom: 355px;
     }
 }
 
